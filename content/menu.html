@@ -163,70 +163,70 @@
 							</ul>
 						</li>
 						<li class="togglefirstmenu">
-							<a class="sm2 unactive" href="#">SPEC | ARCHIVE</a>
-							<ul class="menusub">
+							<a class="sm2 unactive <?php if(isset($_GET['p'])&&in_array($_GET['p'], $archive)){echo "active";}else{echo "";} ?>" href="#">SPEC | ARCHIVE</a>
+							<ul class="menusub <?php if(isset($_GET['p'])&&in_array($_GET['p'], $archive)){echo "open";}else{echo "";} ?>">
 								<li>
-									<a href="wiltonroyale.html">Wilton Royal</a>
+									<a href="wiltonroyale.html" <?php if(isset($_GET['p'])&&$_GET['p']==="wiltonroyale"){echo "class=\"bold\"";}else{ echo "";} ?>>Wilton Royal</a>
 								</li>
 								<li>
-									<a href="volvoCE.html">Volvo CE</a>
+									<a href="volvoCE.html" <?php if(isset($_GET['p'])&&$_GET['p']==="volvoCE"){echo "class=\"bold\"";}else{ echo "";} ?>>Volvo CE</a>
 								</li>
 								<li>
-									<a href="sunpat.html">Sunpat</a>
+									<a href="sunpat.html" <?php if(isset($_GET['p'])&&$_GET['p']==="sunpat"){echo "class=\"bold\"";}else{ echo "";} ?>>Sunpat</a>
 								</li>
 								<li>
-									<a href="futuretalent.html">Future Talent</a>
+									<a href="futuretalent.html" <?php if(isset($_GET['p'])&&$_GET['p']==="futuretalent"){echo "class=\"bold\"";}else{ echo "";} ?>>Future Talent</a>
 								</li>
 								<li>
-									<a href="angus.html">Angus</a>
+									<a href="angus.html" <?php if(isset($_GET['p'])&&$_GET['p']==="angus"){echo "class=\"bold\"";}else{ echo "";} ?>>Angus</a>
 								</li>
 								<li>
-									<a href="colmans.html">Colmans</a>
+									<a href="colmans.html" <?php if(isset($_GET['p'])&&$_GET['p']==="colmans"){echo "class=\"bold\"";}else{ echo "";} ?>>Colmans</a>
 								</li>
 								<li>
-									<a href="BTglobal.html">BT Global</a>
+									<a href="BTglobal.html" <?php if(isset($_GET['p'])&&$_GET['p']==="BTgolbal"){echo "class=\"bold\"";}else{ echo "";} ?>>BT Global</a>
 								</li>
 								<li>
-									<a href="yakult.html">Yakult</a>
+									<a href="yakult.html" <?php if(isset($_GET['p'])&&$_GET['p']==="yakult"){echo "class=\"bold\"";}else{ echo "";} ?>>Yakult</a>
 								</li>
 								<li>
-									<a href="MGinvest.html">M&G Investments</a>
+									<a href="MGinvest.html" <?php if(isset($_GET['p'])&&$_GET['p']==="MGinvest"){echo "class=\"bold\"";}else{ echo "";} ?>>M&G Investments</a>
 								</li>
 								<li>
-									<a href="lovefilm.html">Lovefilm</a>
+									<a href="lovefilm.html" <?php if(isset($_GET['p'])&&$_GET['p']==="lovefilm"){echo "class=\"bold\"";}else{ echo "";} ?>>Lovefilm</a>
 								</li>
 								<li>
-									<a href="saga.html">Saga</a>
+									<a href="saga.html" <?php if(isset($_GET['p'])&&$_GET['p']==="saga"){echo "class=\"bold\"";}else{ echo "";} ?>>Saga</a>
 								</li>
 								<li>
-									<a href="skandia.html">Skandia</a>
+									<a href="skandia.html" <?php if(isset($_GET['p'])&&$_GET['p']==="skandia"){echo "class=\"bold\"";}else{ echo "";} ?>>Skandia</a>
 								</li>
 								<li>
-									<a href="speedo.html">Speedo Sculpture</a>
+									<a href="speedo.html" <?php if(isset($_GET['p'])&&$_GET['p']==="speedo"){echo "class=\"bold\"";}else{ echo "";} ?>>Speedo Sculpture</a>
 								</li>
 								<li>
-									<a href="tombola.html">Tombola</a>
+									<a href="tombola.html" <?php if(isset($_GET['p'])&&$_GET['p']==="tombola"){echo "class=\"bold\"";}else{ echo "";} ?>>Tombola</a>
 								</li>
 								<li>
-									<a href="paperclip.html">Paperclip</a>
+									<a href="paperclip.html" <?php if(isset($_GET['p'])&&$_GET['p']==="paperclip"){echo "class=\"bold\"";}else{ echo "";} ?>>Paperclip</a>
 								</li>
 								<li>
-									<a href="maclaren.html">Maclaren Mac 3</a>
+									<a href="maclaren.html" <?php if(isset($_GET['p'])&&$_GET['p']==="maclaren"){echo "class=\"bold\"";}else{ echo "";} ?>>Maclaren Mac 3</a>
 								</li>
 							</ul>
 						</li>
 						<li class="togglefirstmenu">
-							<a class="sm3 unactive" href="#">ABOUT</a>
-							<ul class="menusub">
+							<a class="sm3 unactive <?php if(isset($_GET['p'])&&in_array($_GET['p'], $about)){echo "active";}else{echo "";} ?>" href="#">ABOUT</a>
+							<ul class="menusub <?php if(isset($_GET['p'])&&in_array($_GET['p'], $about)){echo "open";}else{echo "";} ?>">
 
 								<li>
-									<a href="cv.html">CV</a>
+									<a href="cv.html" <?php if(isset($_GET['p'])&&$_GET['p']==="cv"){echo "class=\"bold\"";}else{ echo "";} ?>>CV</a>
 								</li>
 								<li>
-									<a href="awards.html">Awards | Exposure</a>
+									<a href="awards.html" <?php if(isset($_GET['p'])&&$_GET['p']==="awards"){echo "class=\"bold\"";}else{ echo "";} ?>>Awards | Exposure</a>
 								</li>
 								<li>
-									<a href="expertise.html">Expertise</a>
+									<a href="expertise.html" <?php if(isset($_GET['p'])&&$_GET['p']==="expertise"){echo "class=\"bold\"";}else{ echo "";} ?>>Expertise</a>
 								</li>
 							</ul>
 						</li>

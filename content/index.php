@@ -39,14 +39,34 @@
                         "cityindex-digital"=>"",
                         "cityindex-print"=>"",
                         "cityindex-transport"=>"",
-                        "cityindex-DM"=>"");
+                        "cityindex-DM"=>"",
+                        "wiltonroyale"=>"",
+                        "volvoCE"=>"",
+                        "sunpat"=>"",
+                        "futuretalent"=>"",
+                        "angus"=>"",
+                        "colmans"=>"",
+                        "BTglobal"=>"",
+                        "yakult"=>"",
+                        "MGinvest"=>"",
+                        "lovefilm"=>"",
+                        "saga"=>"",
+                        "skandia"=>"",
+                        "speedo"=>"",
+                        "tombola"=>"",
+                        "paperclip"=>"",
+                        "maclaren"=>"",
+                        "cv"=>"",
+                        "awards"=>"",
+                        "expertise"=>"");
                     
        $showcase=array("RNLI-outdoor","FP-print","FP-digital","vodafone-tv", "JTI-activ", "JTI-contru","LSE-print","invista-digital", "
             inmarsat-digital", "TRC-digital", "TRC-game", "TRC-DM", "smirnoff-radio","TFL-exp","TFL-digital", "d2k-Cross-track",
             "G3-G3eu","G3-proven","G3-C5","bayer-digital","bayer-print","AXA-digital","share-digital","share-print","share-outdoor",
             "share-DM","NR-96sheet","NR-TV","TNT-print","TNT-digital","cityindex-digital","cityindex-print","cityindex-transport","cityindex-DM");
-       $archive=array("");
-       $about=array("");
+       $archive=array("wiltonroyale","volvoCE","sunpat","futuretalent","angus","colmans","BTglobal","yakult","MGinvest","lovefilm","saga","skandia",
+            "speedo","tombola","paperclip","maclaren");
+       $about=array("cv","awards","expertise");
        
        if(isset($_GET['p']) && !preg_match("/\//i", $_GET['p']))
        {                                      
