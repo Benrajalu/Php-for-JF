@@ -1,0 +1,20 @@
+AddType video/ogg  .ogv
+AddType video/mp4  .mp4
+AddType video/webm .webm
+
+#--------------------------------------------------
+# Répertoire : /content/
+#--------------------------------------------------
+
+# Le serveur doit suivre les liens symboliques :
+Options +FollowSymlinks
+
+# Activation du module de réécriture d'URL :
+RewriteEngine on
+
+#--------------------------------------------------
+# Règles de réécriture d'URL :
+#--------------------------------------------------
+
+RewriteRule ^index.html$    content/index.php [L]
+RewriteRule ^([a-zA-Z0-9_-]+)\.html$    content/index.php?p=$1 [L]
