@@ -1,0 +1,92 @@
+waves_initial2.swf Movie Report
+--------------------------------
+
+Metadata
+--------
+Bytes    Value
+-----    -----
+ 1290    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2010-07-29T09:31:56+01:00</xmp:CreateDate> <xmp:MetadataDate>2010-10-29T11:41:58+01:00</xmp:MetadataDate> <xmp:ModifyDate>2010-10-29T11:41:58+01:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:InstanceID>xmp.iid:1FFE794047E3DF11A566EABF555DA31E</xmpMM:InstanceID> <xmpMM:DocumentID>xmp.did:1FFE794047E3DF11A566EABF555DA31E</xmpMM:DocumentID> <xmpMM:OriginalDocumentID>xmp.did:576F518DEB9ADF1191DDE33154DD6DC4</xmpMM:OriginalDocumentID> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:A8E0B1C0AEE2DF11A09CDF7147072878</stRef:instanceID> <stRef:documentID>xmp.did:A8E0B1C0AEE2DF11A09CDF7147072878</stRef:documentID> <stRef:originalDocumentID>xmp.did:576F518DEB9ADF1191DDE33154DD6DC4</stRef:originalDocumentID> </xmpMM:DerivedFrom> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1          74901          74901    Scene 1 (AS 2.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                                0             0                     0
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+waves all                              0             0                     0
+sea2MC                                 0             0                     0
+Tween 6                                0             0                     0
+Tween 5                                0             0                     0
+sky_mc                                 0             0                     0
+click_tag                              0             0                     0
+t1                                     0             0                     0
+Tween 3                                0             0                     0
+Tween 2                                0             0                     0
+Tween 1                                0             0                     0
+yacht_g                                0             0                     0
+t-watch                                0             0                     0
+skySea                                 0             0                     0
+sky                                    0             0                     0
+boat                                   0             0                     0
+t-fleet                                0             0                     0
+color                                  0             0                     0
+price                                  0             0                     0
+at                                     0             0                     0
+t-smallboat                            0             0                     0
+yacht                                  0             0                     0
+c3                                     0             0                     0
+clouds_mc                              0             0                     0
+c1_2                                   0             0                     0
+c2                                     0             0                     0
+c1                                     0             0                     0
+ship                                   0             0                     0
+t2                                     0             0                     0
+ship_mc                                0             0                     0
+water_mc                               0             0                     0
+water_mc copy                          0             0                     0
+Symbol 39w                             0             0                     0
+Copy 2w                                0             0                     0
+Symbol 2tw                             0             0                     0
+Symbol 1tw                             0             0                     0
+Symbol 40w                             0             0                     0
+CTA_arrow                              0             0                     0
+panel1                                 0             0                     0
+logo                                 778             0                     0
+copy2MC                                0             0                     0
+Symbol 6                               0            79                     0
+SOS_LifeSaver                          0             0                     0
+SOS                                    0             0                     0
+lifeSaver_mc                           0             0                     0
+Tween 4                                0             0                     0
+Symbol 8                               0             0                     0
+sea                                    0             0                     0
+waveyMC                                0             0                     0
+maskeeMC                               0             0                     0
+Symbol 5                               0             0                     0
+seaFINAL_mc                            0             0                     0
+seaFINALSkewed_mc                      0             0                     0
+SeaFINAL_loop_mc                       0             0                     0
+Symbol 3                               0             0                     0
+Symbol 2                               0             0                     0
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+Hermes-Regular                 2309     ?Daefilosuy
+
+ActionScript Bytes    Location
+------------------    --------
+               804    
+               108    
+             48689    ActionScript 2.0 Classes
+
+Bitmap                     Compressed    Compression
+-----------------------    ----------  --------  -----------
+seaPic.jpg                     20200      262440   JPEG Quality=90
+
+
+
+

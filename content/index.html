@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>JENFU | DIGITAL / ART DIRECTOR | <?php if(isset($title)){echo $title;}?></title>
+	<meta name="description" content="Jen FU, UK-based Art Director - <?php if(isset($title)){echo $title;}?>" />
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="content/css/default.css" media="screen" type="text/css" rel="stylesheet">
+	<link href="content/css/jquery.tweet.css" media="screen" type="text/css" rel="stylesheet">
+	<link href="content/script/cloud-zoom.css" media="screen" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="content/js/library.jquery.js"></script>
+	<script type="text/javascript" src="content/js/respond.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="content/js/selectivizr-min.js"></script>
+	<![endIf]-->
+	<script src="content/js/modernizr.custom.48071.js"></script>
+	<script type="text/javascript" src="content/js/library.easing.js"></script>
+	<script type="text/javascript" src="content/js/jquery.flexslider.js"></script>
+	<script src="content/js/jquery.tweet.js" type="text/javascript"></script>
+	<script src="content/js/jquerymailto.js" type="text/javascript"></script>
+	<script src="content/js/cloud-zoom.1.0.2.js" type="text/javascript"></script>
+	<script type="text/javascript" src="content/js/init.js"></script>
+	<script type='text/javascript'>
+	    jQuery(function($){
+	        $(".tweets").tweet({
+	            username: "msjenfu",
+	            join_text: "",
+	            auto_join_text_default: "I've tweeted:", 
+	            auto_join_text_ed: "I",
+	            auto_join_text_ing: "I was",
+	            auto_join_text_reply: "I replied replied to",
+	            auto_join_text_url: "I was checking out",
+	            loading_text: "loading tweets..."
+	        });
+	    });
+	</script>
+	
+</head>
+<body>
+
+<div id="site">
+	<!-- header begin -->
+	<header>
+		<h1><strong>JENFU</strong> | DIGITAL / ART DIRECTOR</h1>
+		<ul class="social">
+			<li><a class="linkedin" href="http://uk.linkedin.com/in/msjenfu" target="_blank">LinkedIn</a></li>
+			<li><a class="twitter" href="https://twitter.com/#!/msjenfu" target="_blank">Twitter</a></li>
+			<li><a class="skype" href="callto://msjenfu" target="_blank">Skype</a></li>
+			<li><a class="email home" href="email(to)jenfu.co.uk">E-mail</a></li>
+		</ul>
+		<div class="tweets">
+		</div>
+	</header>
+	<div class="toplogo">
+		<ul>
+			<li><a href="index.php"><img class="workicone" src="./content/img/work-icone.png" alt="Jen FU - Art director" />Work</a></li>
+			<li><img src="./content/img/play-icone.png" alt="Jen FU - Art director" />Play</li>
+		</ul>
+	</div>
+	<!-- header end -->
+	
+	<!-- section begin -->
+	<div id="section">
+		<div class="wrapper">
+
+			<!-- Insert left menu -->
+			<?php include("menu.html"); ?>
+
+			<!-- Insert content -->
+			<?php include($content); ?>
+
+
+		<div class="clearfix">&nbsp;</div>	
+		</div>
+	</div>
+	<!-- section end -->
+	
+	<!-- footer begin -->
+	<footer id="footer">
+		<!-- none for now -->
+	</footer>
+	<!-- footer end -->
+</div>
+
+<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-8099769-2");
+            pageTracker._trackPageview();
+            } catch(err) {}</script>
+
+</body>
+</html>

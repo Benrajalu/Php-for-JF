@@ -1,0 +1,44 @@
+waves_initial.swf Movie Report
+-------------------------------
+
+Metadata
+--------
+Bytes    Value
+-----    -----
+ 1277    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2010-07-29T09:31:56+01:00</xmp:CreateDate> <xmp:MetadataDate>2010-11-03T12:24:17Z</xmp:MetadataDate> <xmp:ModifyDate>2010-11-03T12:24:17Z</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:InstanceID>xmp.iid:225B83661820681197A5D6152C96FD59</xmpMM:InstanceID> <xmpMM:DocumentID>xmp.did:225B83661820681197A5D6152C96FD59</xmpMM:DocumentID> <xmpMM:OriginalDocumentID>xmp.did:576F518DEB9ADF1191DDE33154DD6DC4</xmpMM:OriginalDocumentID> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:E130EA9A97A4DF11BBB6816165A9E434</stRef:instanceID> <stRef:documentID>xmp.did:E130EA9A97A4DF11BBB6816165A9E434</stRef:documentID> <stRef:originalDocumentID>xmp.did:576F518DEB9ADF1191DDE33154DD6DC4</stRef:originalDocumentID> </xmpMM:DerivedFrom> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1          97543          97543    Scene 1 (AS 2.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                               40             0                     0
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+text_fade                              0             0                     0
+rollover_txt_glow                      0            67                     0
+rollover_txt                           0             0                     0
+waves all                              0             0                     0
+panel1                                 0             0                     0
+Symbol 6                               0            80                     0
+logo                                 751             0                     0
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+Hermes-Regular                 2248     ?DR[]aefilorsuvy
+
+ActionScript Bytes    Location
+------------------    --------
+               807    
+               107    
+             48580    ActionScript 2.0 Classes
+
+Video                       Compressed
+------------------------    ----------
+sea_728x90_vE 1                   41280
+
+
+
+

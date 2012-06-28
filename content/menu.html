@@ -1,0 +1,235 @@
+<aside class="lside">
+				<nav>
+					<ul class="menu verticalmenu">
+						<li class="togglefirstmenu">
+							<a class="sm1 unactive <?php if(isset($_GET['p'])&&in_array($_GET['p'], $showcase)){echo "active";}else if(!isset($_GET['p'])){ echo "active";}else{echo "";} ?>" href="#">SHOWCASE</a>
+							<ul class="menusub sub1 <?php if(isset($_GET['p'])&&in_array($_GET['p'], $showcase)){echo "open";}else if(!isset($_GET['p'])){ echo "open";}else{echo "";} ?>">
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="RNLI-outdoor"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										RNLI
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="RNLI-outdoor"){echo "open";}else{ echo "";} ?>">
+										<li><a href="RNLI-outdoor.html" <?php if(isset($_GET['p'])&&$_GET['p']==="RNLI-outdoor"){echo "class=\"bold\"";}else{ echo "";} ?>>Outdoor</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="FP-print"||isset($_GET['p'])&&$_GET['p']==="FP-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										Forsyth & Partners
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="FP-print"||isset($_GET['p'])&&$_GET['p']==="FP-digital"){echo "open";}else{ echo "";} ?>">
+										<li><a href="FP-print.html" <?php if(isset($_GET['p'])&&$_GET['p']==="FP-print"){echo "class=\"bold\"";}else{ echo "";} ?>>Print</a></li>
+										<li><a href="FP-digital.html" <?php if(isset($_GET['p'])&&$_GET['p']==="FP-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Digital</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="vodafone-tv"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										Vodafone
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="vodafone-tv"){echo "open";}else{ echo "";} ?>">
+										<li><a href="vodafone-tv.html" <?php if(isset($_GET['p'])&&$_GET['p']==="vodafone-tv"){echo "class=\"bold\"";}else{ echo "";} ?>>In-store TV</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="JTI-activ"||isset($_GET['p'])&&$_GET['p']==="JTI-contru"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										JTI Winston Freedom Fest
+									</a>
+									<ul class="menusubsec submenu  <?php if(isset($_GET['p'])&&$_GET['p']==="JTI-activ"||isset($_GET['p'])&&$_GET['p']==="JTI-contru"){echo "open";}else{ echo "";} ?>">
+										<li><a href="JTI-activ.html" <?php if(isset($_GET['p'])&&$_GET['p']==="JTI-activ"){echo "class=\"bold\"";}else{ echo "";} ?>>Experiential activation</a></li>
+										<li><a href="JTI-contru.html" <?php if(isset($_GET['p'])&&$_GET['p']==="JTI-contru"){echo "class=\"bold\"";}else{ echo "";} ?>>Experiential construction</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="LSE-print"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										LSE TechMark
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="LSE-print"){echo "open";}else{ echo "";} ?>">
+										<li><a href="LSE-print.html" <?php if(isset($_GET['p'])&&$_GET['p']==="LSE-print"){echo "class=\"bold\"";}else{ echo "";} ?>>Print</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="invista-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Invista Lycra</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="invista-digital"){echo "open";}else{ echo "";} ?>">
+										<li><a href="invista-digital.html" <?php if(isset($_GET['p'])&&$_GET['p']==="invista-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Digital</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="inmarsat-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Inmarsat</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="inmarsat-digital"){echo "open";}else{ echo "";} ?>">
+										<li><a href="inmarsat-digital.html" <?php if(isset($_GET['p'])&&$_GET['p']==="inmarsat-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Digital</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="TRC-digital"||isset($_GET['p'])&&$_GET['p']==="TRC-game"||isset($_GET['p'])&&$_GET['p']==="TRC-DM"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										Thames River Capital
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="TRC-digital"||isset($_GET['p'])&&$_GET['p']==="TRC-game"||isset($_GET['p'])&&$_GET['p']==="TRC-DM"){echo "open";}else{ echo "";} ?>">
+										<li><a href="TRC-digital.html" <?php if(isset($_GET['p'])&&$_GET['p']==="TRC-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Digital</a></li>
+										<li><a href="TRC-game.html" <?php if(isset($_GET['p'])&&$_GET['p']==="TRC-game"){echo "class=\"bold\"";}else{ echo "";} ?>>Digital Game</a></li>
+										<li><a href="TRC-DM.html" <?php if(isset($_GET['p'])&&$_GET['p']==="TRC-DM"){echo "class=\"bold\"";}else{ echo "";} ?>>DM</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="smirnoff-radio"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										Smirnoff Ice
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="smirnoff-radio"){echo "open";}else{ echo "";} ?>">
+										<li><a href="smirnoff-radio.html" <?php if(isset($_GET['p'])&&$_GET['p']==="smirnoff-radio"){echo "class=\"bold\"";}else{ echo "";} ?>>Radio</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="TFL-exp"||isset($_GET['p'])&&$_GET['p']==="TFL-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										TFL
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="TFL-exp"||isset($_GET['p'])&&$_GET['p']==="TFL-digital"){echo "open";}else{ echo "";} ?>">
+										<li><a href="TFL-exp.html" <?php if(isset($_GET['p'])&&$_GET['p']==="TFL-exp"){echo "class=\"bold\"";}else{ echo "";} ?>>Experiential</a></li>
+										<li><a href="TFL-digital.html" <?php if(isset($_GET['p'])&&$_GET['p']==="TFL-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Digital</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="d2k-Cross-track"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										Dress2Kill
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="d2k-Cross-track"){echo "open";}else{ echo "";} ?>">
+										<li><a href="d2k-Cross-track.html" <?php if(isset($_GET['p'])&&$_GET['p']==="d2k-Cross-track"){echo "class=\"bold\"";}else{ echo "";} ?>>Platform Cross Track</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="G3-G3eu"||isset($_GET['p'])&&$_GET['p']==="G3-proven"||isset($_GET['p'])&&$_GET['p']==="G3-C5"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										G3
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="G3-G3eu"||isset($_GET['p'])&&$_GET['p']==="G3-proven"||isset($_GET['p'])&&$_GET['p']==="G3-C5"){echo "open";}else{ echo "";} ?>">
+										<li><a href="G3-G3eu.html" <?php if(isset($_GET['p'])&&$_GET['p']==="G3-G3eu"){echo "class=\"bold\"";}else{ echo "";} ?>>G3</a></li>
+										<li><a href="G3-proven.html" <?php if(isset($_GET['p'])&&$_GET['p']==="G3-proven"){echo "class=\"bold\"";}else{ echo "";} ?>>Proven</a></li>
+										<li><a href="G3-C5.html" <?php if(isset($_GET['p'])&&$_GET['p']==="G3-C5"){echo "class=\"bold\"";}else{ echo "";} ?>>C5 Capital</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="bayer-digital"||isset($_GET['p'])&&$_GET['p']==="bayer-print"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										Bayer
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="bayer-digital"||isset($_GET['p'])&&$_GET['p']==="bayer-print"){echo "open";}else{ echo "";} ?>">
+										<li><a href="bayer-digital.html" <?php if(isset($_GET['p'])&&$_GET['p']==="bayer-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Digital</a></li>
+										<li><a href="bayer-print.html" <?php if(isset($_GET['p'])&&$_GET['p']==="bayer-print"){echo "class=\"bold\"";}else{ echo "";} ?>>Print</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="AXA-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										AXA Investments
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="AXA-digital"){echo "open";}else{ echo "";} ?>">
+										<li><a href="AXA-digital.html" <?php if(isset($_GET['p'])&&$_GET['p']==="AXA-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Digital</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="share-digital"||isset($_GET['p'])&&$_GET['p']==="share-print"||isset($_GET['p'])&&$_GET['p']==="share-DM"||isset($_GET['p'])&&$_GET['p']==="share-outdoor"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										The Share Centre
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="share-digital"||isset($_GET['p'])&&$_GET['p']==="share-print"||isset($_GET['p'])&&$_GET['p']==="share-DM"||isset($_GET['p'])&&$_GET['p']==="share-outdoor"){echo "open";}else{ echo "";} ?>">
+										<li><a href="share-digital.html" <?php if(isset($_GET['p'])&&$_GET['p']==="share-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Digital</a></li>
+										<li><a href="share-print.html" <?php if(isset($_GET['p'])&&$_GET['p']==="share-print"){echo "class=\"bold\"";}else{ echo "";} ?>>Print</a></li>
+										<li><a href="share-DM.html" <?php if(isset($_GET['p'])&&$_GET['p']==="share-DM"){echo "class=\"bold\"";}else{ echo "";} ?>>DM</a></li>
+										<li><a href="share-outdoor.html" <?php if(isset($_GET['p'])&&$_GET['p']==="share-outdoor"){echo "class=\"bold\"";}else{ echo "";} ?>>Outdoor</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="NR-96sheet"||isset($_GET['p'])&&$_GET['p']==="NR-TV"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										Network Rail
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="NR-96sheet"||isset($_GET['p'])&&$_GET['p']==="NR-TV"){echo "open";}else{ echo "";} ?>">
+										<li><a href="NR-96sheet.html" <?php if(isset($_GET['p'])&&$_GET['p']==="NR-96sheet"){echo "class=\"bold\"";}else{ echo "";} ?>>Backlit 96 sheet</a></li>
+										<li><a href="NR-TV.html" <?php if(isset($_GET['p'])&&$_GET['p']==="NR-TV"){echo "class=\"bold\"";}else{ echo "";} ?>>TV Transvision</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="TNT-print"||isset($_GET['p'])&&$_GET['p']==="TNT-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										TNT Post
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="TNT-print"||isset($_GET['p'])&&$_GET['p']==="TNT-digital"){echo "open";}else{ echo "";} ?>">
+										<li><a href="TNT-print.html" <?php if(isset($_GET['p'])&&$_GET['p']==="TNT-print"){echo "class=\"bold\"";}else{ echo "";} ?>>Print</a></li>
+										<li><a href="TNT-digital.html" <?php if(isset($_GET['p'])&&$_GET['p']==="TNT-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Digital</a></li>
+									</ul>
+								</li>
+								<li class="togglesubmenu">
+									<a href="#" <?php if(isset($_GET['p'])&&$_GET['p']==="cityindex-digital"||isset($_GET['p'])&&$_GET['p']==="cityindex-print"||isset($_GET['p'])&&$_GET['p']==="cityindex-DM"||isset($_GET['p'])&&$_GET['p']==="cityindex-transport"){echo "class=\"bold\"";}else{ echo "";} ?>>
+										CityIndex
+									</a>
+									<ul class="menusubsec submenu <?php if(isset($_GET['p'])&&$_GET['p']==="cityindex-digital"||isset($_GET['p'])&&$_GET['p']==="cityindex-print"||isset($_GET['p'])&&$_GET['p']==="cityindex-DM"||isset($_GET['p'])&&$_GET['p']==="cityindex-transport"){echo "open";}else{ echo "";} ?>">
+										<li><a href="cityindex-digital.html" <?php if(isset($_GET['p'])&&$_GET['p']==="cityindex-digital"){echo "class=\"bold\"";}else{ echo "";} ?>>Digital & TV Bloomberg</a></li>
+										<li><a href="cityindex-print.html" <?php if(isset($_GET['p'])&&$_GET['p']==="cityindex-print"){echo "class=\"bold\"";}else{ echo "";} ?>>Print</a></li>
+										<li><a href="cityindex-DM.html" <?php if(isset($_GET['p'])&&$_GET['p']==="cityindex-DM"){echo "class=\"bold\"";}else{ echo "";} ?>>DM</a></li>
+										<li><a href="cityindex-transport.html" <?php if(isset($_GET['p'])&&$_GET['p']==="cityindex-transport"){echo "class=\"bold\"";}else{ echo "";} ?>>Transport Media</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="togglefirstmenu">
+							<a class="sm2 unactive" href="#">SPEC | ARCHIVE</a>
+							<ul class="menusub">
+								<li>
+									<a href="wiltonroyale.html">Wilton Royal</a>
+								</li>
+								<li>
+									<a href="volvoCE.html">Volvo CE</a>
+								</li>
+								<li>
+									<a href="sunpat.html">Sunpat</a>
+								</li>
+								<li>
+									<a href="futuretalent.html">Future Talent</a>
+								</li>
+								<li>
+									<a href="angus.html">Angus</a>
+								</li>
+								<li>
+									<a href="colmans.html">Colmans</a>
+								</li>
+								<li>
+									<a href="BTglobal.html">BT Global</a>
+								</li>
+								<li>
+									<a href="yakult.html">Yakult</a>
+								</li>
+								<li>
+									<a href="MGinvest.html">M&G Investments</a>
+								</li>
+								<li>
+									<a href="lovefilm.html">Lovefilm</a>
+								</li>
+								<li>
+									<a href="saga.html">Saga</a>
+								</li>
+								<li>
+									<a href="skandia.html">Skandia</a>
+								</li>
+								<li>
+									<a href="speedo.html">Speedo Sculpture</a>
+								</li>
+								<li>
+									<a href="tombola.html">Tombola</a>
+								</li>
+								<li>
+									<a href="paperclip.html">Paperclip</a>
+								</li>
+								<li>
+									<a href="maclaren.html">Maclaren Mac 3</a>
+								</li>
+							</ul>
+						</li>
+						<li class="togglefirstmenu">
+							<a class="sm3 unactive" href="#">ABOUT</a>
+							<ul class="menusub">
+
+								<li>
+									<a href="cv.html">CV</a>
+								</li>
+								<li>
+									<a href="awards.html">Awards | Exposure</a>
+								</li>
+								<li>
+									<a href="expertise.html">Expertise</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</aside>

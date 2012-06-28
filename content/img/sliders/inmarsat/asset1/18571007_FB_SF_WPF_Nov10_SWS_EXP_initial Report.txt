@@ -1,0 +1,169 @@
+18571007_FB_SF_WPF_Nov10_SWS_EXP_initial.swf Movie Report
+----------------------------------------------------------
+
+Metadata
+--------
+Bytes    Value
+-----    -----
+ 1275    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2010-11-01T11:07:56Z</xmp:CreateDate> <xmp:MetadataDate>2010-11-18T13:15:58Z</xmp:MetadataDate> <xmp:ModifyDate>2010-11-18T13:15:58Z</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:D0421FE51A20681197A5D6152C96FD59</stRef:instanceID> <stRef:documentID>xmp.did:D0421FE51A20681197A5D6152C96FD59</stRef:documentID> <stRef:originalDocumentID>xmp.did:0180117407206811BD35B6AF4F59DE60</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:B415529E15F3DF118037F72AA30FCD73</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:B415529E15F3DF118037F72AA30FCD73</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:0180117407206811BD35B6AF4F59DE60</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1          83813          83813    Scene 1 (AS 2.0 Classes Export Frame)
+      2              2          83815    
+      3              2          83817    
+      4              2          83819    
+      5              2          83821    
+      6              2          83823    
+      7              2          83825    
+      8              2          83827    
+      9              2          83829    
+     10              2          83831    
+     11              2          83833    
+     12              2          83835    
+     13              2          83837    
+     14              2          83839    
+     15              2          83841    
+     16              2          83843    
+     17              2          83845    
+     18              2          83847    
+     19              2          83849    
+     20              2          83851    
+     21            208          84059    
+     22            208          84267    
+     23            208          84475    
+     24            208          84683    
+     25            208          84891    
+     26            208          85099    
+     27            208          85307    
+     28            208          85515    
+     29            208          85723    
+     30            208          85931    
+     31            208          86139    
+     32            208          86347    
+     33            208          86555    
+     34            208          86763    
+     35            208          86971    
+     36            208          87179    
+     37            208          87387    
+     38            208          87595    
+     39            208          87803    
+     40            208          88011    
+     41            208          88219    
+     42            208          88427    
+     43            208          88635    
+     44            208          88843    
+     45            208          89051    
+     46            208          89259    
+     47            208          89467    
+     48            208          89675    
+     49            208          89883    
+     50            208          90091    
+     51            208          90299    
+     52            208          90507    
+     53            208          90715    
+     54            208          90923    
+     55            208          91131    
+     56            208          91339    
+     57            208          91547    
+     58            208          91755    
+     59            208          91963    
+     60            208          92171    
+     61            208          92379    
+     62            208          92587    
+     63            208          92795    
+     64            208          93003    
+     65            208          93211    
+     66            208          93419    
+     67            208          93627    
+     68            208          93835    
+     69            208          94043    
+     70            208          94251    
+     71            208          94459    
+     72            208          94667    
+     73            208          94875    
+     74            208          95083    
+     75            208          95291    
+     76            208          95499    
+     77            208          95707    
+     78            208          95915    
+     79            208          96123    
+     80            208          96331    
+     81            208          96539    
+     82            208          96747    
+     83            208          96955    
+     84            208          97163    
+     85            208          97371    
+     86            208          97579    
+     87            208          97787    
+     88            208          97995    
+     89            208          98203    
+     90            208          98411    
+     91            208          98619    
+     92            208          98827    
+     93            208          99035    
+     94            208          99243    
+     95            208          99451    
+     96            208          99659    
+     97            208          99867    
+     98            208         100075    
+     99            208         100283    
+    100            208         100491    
+    101            208         100699    
+    102            208         100907    
+    103            208         101115    
+    104            208         101323    
+    105            208         101531    
+    106            208         101739    
+    107            208         101947    
+    108            116         102063    
+    109              2         102065    
+    110              2         102067    
+    111             10         102077    
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                               41             0                   787
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Symbol 17                              0             0                     0
+Symbol 16                              0             0                     0
+Symbol 11                              0            93                     0
+text1MC                                0             0                     0
+Symbol 7                               0             0                     0
+Symbol 6                               0             0                     0
+Symbol 5                              41             0                     0
+Symbol 2                              68             0                     7
+Symbol 1                             177             0                     0
+logo                                 768             0                     0
+panel1                                 0             0                     0
+Symbol 3                             180             0                     0
+CTA_arrow                              0             0                     0
+
+
+Tweened Shapes: 1014 bytes
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+Hermes-Regular                 3389     'Dacefhilmnorstuy
+
+ActionScript Bytes    Location
+------------------    --------
+               785    Scene 1:Actions:1
+                 7    Symbol 2:Acions:172
+               108    
+               830    
+                 2    Scene 1:Actions:111
+             48851    ActionScript 2.0 Classes
+
+Bitmap                     Compressed    Compression
+-----------------------    ----------  --------  -----------
+skyNew_728x90.jpg               2665      165984   JPEG Quality=50
+sky_dawn.jpg                    3562      262080   JPEG Quality=50
+seaTop.png                      7666      375648   JPEG Quality=40
+boatNoRod.png                   8193      114648   JPEG Quality=50
+
+
+
+

@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase / 
+
+RewriteRule ^page-([a-zA-Z0-9]+)\.html$    /content/index.php?p=$1 [L]
+
+
+AddType video/ogg  .ogv
+AddType video/mp4  .mp4
+AddType video/webm .webm

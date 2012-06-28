@@ -1,0 +1,42 @@
+BIGBOAT_initial.swf Movie Report
+---------------------------------
+
+Metadata
+--------
+Bytes    Value
+-----    -----
+ 1290    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2010-07-29T09:31:56+01:00</xmp:CreateDate> <xmp:MetadataDate>2010-08-02T14:00:07+01:00</xmp:MetadataDate> <xmp:ModifyDate>2010-08-02T14:00:07+01:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:InstanceID>xmp.iid:F53E47E0359EDF11B18BEB3C2A63F320</xmpMM:InstanceID> <xmpMM:DocumentID>xmp.did:F53E47E0359EDF11B18BEB3C2A63F320</xmpMM:DocumentID> <xmpMM:OriginalDocumentID>xmp.did:576F518DEB9ADF1191DDE33154DD6DC4</xmpMM:OriginalDocumentID> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:576F518DEB9ADF1191DDE33154DD6DC4</stRef:instanceID> <stRef:documentID>xmp.did:576F518DEB9ADF1191DDE33154DD6DC4</stRef:documentID> <stRef:originalDocumentID>xmp.did:576F518DEB9ADF1191DDE33154DD6DC4</stRef:originalDocumentID> </xmpMM:DerivedFrom> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1          73180          73180    Scene 1 (AS 2.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                               41             0                    48
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+water_mc                               0             0                     0
+Copy 2w                             5839             0                     0
+Symbol 2tw                             0             0                     0
+Symbol 1tw                             0             0                     0
+Symbol 40w                             0             0                     0
+panel1                                 0             0                     0
+
+ActionScript Bytes    Location
+------------------    --------
+                48    Scene 1:sea:1:No instance name assigned(water_mc)
+                88    
+               793    
+             46776    ActionScript 2.0 Classes
+
+Bitmap                     Compressed    Compression
+-----------------------    ----------  --------  -----------
+728x90.jpg                      9472      262080   JPEG Quality=65
+flash0.png                      2851       66976   JPEG Quality=60
+Bitmap 244w                     1733      375744   JPEG Quality=20
+
+
+
+
